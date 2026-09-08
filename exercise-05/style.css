@@ -15,6 +15,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 32px 0;
+    background-color: #a63030;
 }
 
 main {
@@ -22,9 +23,11 @@ main {
     width: 90%;
     padding: 16px;
     border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -52,11 +55,17 @@ main>p {
     justify-content: center;
 }
 
+.collection-card > * {
+    text-align: center;
+}
+
 .collection-card {
     display: flex;
     flex-direction: column;
     border: 1px solid rgba(0, 0, 0, 0.25);
-    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: -8px 8px 5px rgba(0, 0, 0, 0.1);
+    background-color: #eceaea;
     padding: 16px;
     max-width: 500px;
     margin: 16px 0px;
