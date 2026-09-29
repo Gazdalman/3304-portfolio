@@ -32,3 +32,15 @@ h1, p {
 h1 {
   font-size: 60px;
 }
+
+#home {
+    display: block;
+    margin-top: 32px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(15, 0, 185, 0.725);
+}
+
+#home:hover {
+  color: rgb(121, 115, 189);
+}

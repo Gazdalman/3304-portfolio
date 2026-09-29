@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Software Developer Portfolio | Computer Science Student</title>
+    <link rel="stylesheet" href="./static/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+        <label
+          for="nav-toggle"
+          class="hamburger-label"
+          aria-label="Toggle Navigation"
+        >
+          <svg
+            class="hamburger-icon"
+            viewBox="0 0 448 512"
+            width="20"
+            height="20"
+          >
+            <path
+              fill="currentColor"
+              d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+            />
+          </svg>
+        </label>
+        <a href="./" class="logo">Toney <span>Winston</span></a>
+        <ul class="nav-links">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#activity">Activity</a></li>
+          <li><a href="./pages/certificates/">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a
+          href="./static/documents/Toney Winston Resume 2026.pdf"
+          download
+          class="resume-btn"
+          >Resume</a
+        >
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          Seeking Software Engineering Roles
+        </div>
+        <h1>
+          Computing Applications Student & <span>Software Developer</span>
+        </h1>
+        <p>
+          Passionate about building scalable full-stack web applications,
+          backend architecture, and high performance tools.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary"> Explore Projects </a>
+          <a href="#contact" class="btn-secondary"> Get in Touch </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-bg">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Projects</h2>
+          <p>Full-stack apps and utility tools built with modern frameworks.</p>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-content">
+              <div class="project-top">
+                <svg viewBox="0 0 512 512">
+                  <path
+                    d="M64 400l384 0c8.8 0 16-7.2 16-16l0-240c0-8.8-7.2-16-16-16l-149.3 0c-17.3 0-34.2-5.6-48-16L212.3 83.2c-2.8-2.1-6.1-3.2-9.6-3.2L64 80c-8.8 0-16 7.2-16 16l0 288c0 8.8 7.2 16 16 16zm384 48L64 448c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l138.7 0c13.8 0 27.3 4.5 38.4 12.8l38.4 28.8c5.5 4.2 12.3 6.4 19.2 6.4L448 80c35.3 0 64 28.7 64 64l0 240c0 35.3-28.7 64-64 64z"
+                  />
+                </svg>
+                <div class="project-links">
+                  <a
+                    href="https://github.com/Gazdalman/FundMyJunk.git"
+                    target="_blank"
+                    aria-label="GitHub Repository"
+                  >
+                    <svg viewBox="0 0 24 24">
+                      <path
+                        d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://fundmyjunk.onrender.com"
+                    target="_blank"
+                    aria-label="Live Demo"
+                  >
+                    <svg viewBox="0 0 24 24">
+                      <path
+                        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <h3>FundMyJunk</h3>
+              <p>
+                A crowd-funding spoof site built during my time at App Academy.
+              </p>
+            </div>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">Flask</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-content">
+              <div class="project-top">
+                <svg viewBox="0 0 512 512">
+                  <path
+                    d="M64 400l384 0c8.8 0 16-7.2 16-16l0-240c0-8.8-7.2-16-16-16l-149.3 0c-17.3 0-34.2-5.6-48-16L212.3 83.2c-2.8-2.1-6.1-3.2-9.6-3.2L64 80c-8.8 0-16 7.2-16 16l0 288c0 8.8 7.2 16 16 16zm384 48L64 448c-35.3 0-64-28.7-64-64L0 96C0 60.7 28.7 32 64 32l138.7 0c13.8 0 27.3 4.5 38.4 12.8l38.4 28.8c5.5 4.2 12.3 6.4 19.2 6.4L448 80c35.3 0 64 28.7 64 64l0 240c0 35.3-28.7 64-64 64z"
+                  />
+                </svg>
+                <div class="project-links">
+                  <a
+                    href="https://github.com"
+                    target="_blank"
+                    aria-label="GitHub Repository"
+                  >
+                    <svg viewBox="0 0 24 24">
+                      <path
+                        d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://example.com"
+                    target="_blank"
+                    aria-label="Live Demo"
+                  >
+                    <svg viewBox="0 0 24 24">
+                      <path
+                        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <h3>Sketchy</h3>
+              <p>
+                A spoof e-commerce site created with a team of my App Academy
+                cohorts.
+              </p>
+            </div>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">Flask</span>
+              <span class="tag">Docker</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2>Technical Skills</h2>
+          <p>Core languages, frameworks, and developer tools.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon-title">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"
+                  />
+                </svg>
+              </div>
+              <h3>Languages</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-bullet"></span>Python
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>JavaScript
+              </li>
+              <li class="skill-item"><span class="skill-bullet"></span>C#</li>
+              <li class="skill-item"><span class="skill-bullet"></span>SQL</li>
+              <li class="skill-item"><span class="skill-bullet"></span>Java</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon-title">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 2l-5.5 9h11L12 2zm0 3.84L15.29 10H8.71L12 5.84zM3 13h18v2H3v-2zm0 4h18v2H3v-2z"
+                  />
+                </svg>
+              </div>
+              <h3>Frameworks</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-bullet"></span>React
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>Node.js / Express
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>Flask
+              </li>
+              <li class="skill-item"><span class="skill-bullet"></span>.NET</li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>Spring Boot
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon-title">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M12 3C7.58 3 4 4.79 4 7s3.58 4 8 4 8-1.79 8-4-3.58-4-8-4M4 9v3c0 2.21 3.58 4 8 4s8-1.79 8-4V9c0 2.21-3.58 4-8 4s-8-1.79-8-4m0 5v3c0 2.21 3.58 4 8 4s8-1.79 8-4v-3c0 2.21-3.58 4-8 4s-8-1.79-8-4z"
+                  />
+                </svg>
+              </div>
+              <h3>Databases & Cloud</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-bullet"></span>PostgreSQL
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>SQLite
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>AWS (S3)
+              </li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon-title">
+              <div class="skill-icon">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M20 18v-1c0-1.1-.9-2-2-2H6c-1.1 0-2 .9-2 2v1H2v2h20v-2h-2zM6 4h12v2H6V4zm14 8H4v2h16v-2z"
+                  />
+                </svg>
+              </div>
+              <h3>Tools & Methods</h3>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-bullet"></span>Git & GitHub
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>Docker & Containers
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>Linux / Bash
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>CI/CD Pipelines
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>Agile / Scrum
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="activity" class="projects-bg">
+      <div class="container">
+        <div class="section-header">
+          <h2>Current Focus and Activities</h2>
+          <p>
+            Projects I'm building, things I'm learning, and Coursera courses I'm
+            taking.
+          </p>
+        </div>
+
+        <div class="activity-container">
+          <div class="activity-card">
+            <div class="activity-meta">Coursera / Microsoft</div>
+            <h3>Blazor for Front-End Development</h3>
+            <p>
+              Course that focuses on UI/UX design principles and their
+              application in Blazor Pages. It covers how to create responsive,
+              user-centered designs.
+            </p>
+          </div>
+
+          <div class="activity-card">
+            <div class="activity-meta">Coursera / Google</div>
+            <h3>Foundations of Cybersecurity</h3>
+            <p>
+              Introduces learners to the cybersecurity profession, including the primary
+              job responsibilities and core skills of entry-level analysts,
+              significant events that led to the development of the
+              cybersecurity field, and security’s continued importance to
+              organizational operations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="footer-content">
+        <h2>Let's Connect</h2>
+        <p>
+          Whether you have an internship opportunity, a project collaboration,
+          or just want to chat about tech, my inbox is always open.
+        </p>
+
+        <div class="social-links">
+          <a
+            href="mailto:ta.winston@outlook.com"
+            class="social-btn"
+            aria-label="Email"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://github.com/Gazdalman"
+            target="_blank"
+            class="social-btn"
+            aria-label="GitHub"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/toney-winston/"
+            target="_blank"
+            class="social-btn"
+            aria-label="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <p class="copyright">© 2026 Toney Winston</p>
+      </div>
+    </footer>
+  </body>
+</html>
