@@ -31,40 +31,77 @@
     height: 12px;
     border-radius: 50%;
     background-color: #fda4af;
-    border: 2px solid #0f172a;
+    border: 2px solid #2a0f0f;
 }
 
 .tl-content {
-    background-color: #32141a;
-    border: 1px solid #32141a;
     padding: 20px;
     border-radius: 8px;
     position: relative;
 }
 
-.tl-content:hover {
-    border-color: #94a3b8;
-}
-
 .tl-date {
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 700;
-    color: #fda4af;
-    text-transform: uppercase;
-    margin-bottom: 6px;
-    letter-spacing: 0.05em;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  letter-spacing: 0.05em;
 }
 
 .tl-content h3 {
-    font-size: 18px;
-    color: #fcf8f8;
-    margin-bottom: 8px;
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 
 .tl-content p {
-    font-size: 14px;
-    color: #e0bfbf;
-    line-height: 1.5;
-    margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+#education {
+  color: #fda4af;
+}
+
+.edu-content {
+  background-color: #32141a;
+  border: 1px solid #32141a;
+}
+
+.edu-content h3 {
+  color: #fcf8f8;
+}
+
+.edu-content p {
+  color: #e0bfbf;
+}
+
+.edu-date {
+  color: #fda4af;
+}
+
+.edu-content:hover {
+    border-color: #b89494;
+}
+
+.work-content {
+  background-color: #fda4af;
+  border: 1px solid #fda4af;
+}
+
+.work-content h3 {
+  color: #1a0303
+}
+
+.work-content p {
+  color: #32141a;
+}
+
+.work-date {
+  color: #9f1239
+}
+
+.work-content:hover {
+    border-color: #f8f4f4;
 }
